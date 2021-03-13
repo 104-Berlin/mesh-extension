@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "x64",
+            "includePath": [
+                "${workspaceFolder}/GameEngine/src/",
+                "${workspaceFolder}/GameEngine/deps/glfw/include/",
+                "${workspaceFolder}/GameEngine/glad/include/",
+                "${workspaceFolder}/GameEngine/deps/glm/glm",
+                "${workspaceFolder}/GameEngine/deps/json/single_include",
+                "${workspaceFolder}/GameEngine/deps/imgui",
+                "${workspaceFolder}/GameEngine/deps/imguizmo",
+                "${workspaceFolder}/GameEngine/deps/entt/single_include",
+                "${workspaceFolder}/assimp/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "EMAC"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

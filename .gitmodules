@@ -1,0 +1,6 @@
+[submodule "GameEngine"]
+	path = GameEngine
+	url = https://github.com/104-Berlin/GameEngine.git
+[submodule "assimp"]
+	path = assimp
+	url = https://github.com/assimp/assimp.git
